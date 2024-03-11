@@ -6,3 +6,4 @@ if torch.backends.mps.is_available():
     print(x)
 else:
     print("MPS device not found.")
+    
